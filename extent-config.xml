@@ -22,7 +22,7 @@
         
         <!-- location of charts in the test view -->
         <!-- top, bottom -->
-        <testViewChartLocation>bottom</testViewChartLocation>//location of chart
+        <testViewChartLocation>bottom</testViewChartLocation>
   
         <!-- custom javascript -->
         <scripts>

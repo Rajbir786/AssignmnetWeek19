@@ -13,12 +13,12 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
+<class name="naveenAutomation.Tests.MyAccountTest" />
+			<class name="naveenAutomation.Tests.AccountLoginTest" />
+			<class name="naveenAutomation.Tests.ChangePasswordTest" />
 			
-			<class name="naveenAutomation.Tests.AccountLogInTest" />
-			<class
-				name="naveenAutomation.Tests.AccountCreatedTest" />
-			
-			
+
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

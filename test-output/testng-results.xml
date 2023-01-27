@@ -1,29 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="0" total="11" passed="8" failed="1" skipped="0">
+<testng-results retried="2" ignored="0" total="5" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-12T02:20:34 PST" name="Suite" finished-at="2023-01-12T02:22:56 PST" duration-ms="141758">
+  <suite started-at="2023-01-27T12:55:46 PST" name="Suite" finished-at="2023-01-27T12:56:07 PST" duration-ms="21506">
     <groups>
     </groups>
-    <test started-at="2023-01-12T02:20:34 PST" name="Test" finished-at="2023-01-12T02:22:56 PST" duration-ms="141758">
-      <class name="naveenAutomation.Tests.AccountCreatedTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:01 PST" name="setUp" finished-at="2023-01-12T02:22:05 PST" duration-ms="3854" status="PASS">
+    <test started-at="2023-01-27T12:55:46 PST" name="Test" finished-at="2023-01-27T12:56:07 PST" duration-ms="21506">
+      <class name="naveenAutomation.Tests.AccountLoginTest">
+        <test-method signature="verifyAlertBannerForInvalidLoginCredentials(java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLoginTest@8458f04]" started-at="2023-01-27T12:56:07 PST" name="verifyAlertBannerForInvalidLoginCredentials" data-provider="LoginDataProvider" finished-at="2023-01-27T12:56:07 PST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NegativeArraySizeException: -1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NegativeArraySizeException: -1
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NegativeArraySizeException: -1
+at naveenAutomation.Tests.AccountLoginTest.provideLoginData(AccountLoginTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertBannerForInvalidLoginCredentials -->
+      </class> <!-- naveenAutomation.Tests.AccountLoginTest -->
+      <class name="naveenAutomation.Tests.MyAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:46 PST" name="setUp" finished-at="2023-01-27T12:55:51 PST" duration-ms="4691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="verifyUserAbleToRegister()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:05 PST" name="verifyUserAbleToRegister" finished-at="2023-01-12T02:22:07 PST" duration-ms="1810" status="SKIP">
+        <test-method signature="verifyAlertBannerForInvalidLoginCredentials()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:51 PST" name="verifyAlertBannerForInvalidLoginCredentials" finished-at="2023-01-27T12:55:52 PST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertBannerForInvalidLoginCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:52 PST" name="teardown" finished-at="2023-01-27T12:55:52 PST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:52 PST" name="setUp" finished-at="2023-01-27T12:55:57 PST" duration-ms="4286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyLogin()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:57 PST" name="verifyLogin" finished-at="2023-01-27T12:55:57 PST" duration-ms="42" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Account not created expected [Your Account Has Been Created!] but found [Register Account]]]>
+              <![CDATA[Login Failed expected [My Account1] but found [My Account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Account not created expected [Your Account Has Been Created!] but found [Register Account]
+              <![CDATA[java.lang.AssertionError: Login Failed expected [My Account1] but found [My Account]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at naveenAutomation.Tests.AccountCreatedTest.verifyUserAbleToRegister(AccountCreatedTest.java:34)
+at naveenAutomation.Tests.MyAccountTest.verifyLogin(MyAccountTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,28 +120,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleToRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:07 PST" name="tearDown" finished-at="2023-01-12T02:22:23 PST" duration-ms="16235" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:57 PST" name="teardown" finished-at="2023-01-27T12:55:57 PST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:23 PST" name="setUp" finished-at="2023-01-12T02:22:27 PST" duration-ms="3704" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:55:57 PST" name="setUp" finished-at="2023-01-27T12:56:02 PST" duration-ms="4639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="verifyUserAbleToRegister()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:27 PST" name="verifyUserAbleToRegister" finished-at="2023-01-12T02:22:29 PST" duration-ms="1776" status="SKIP">
+        <test-method retried="true" signature="verifyLogin()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:56:02 PST" name="verifyLogin" finished-at="2023-01-27T12:56:02 PST" duration-ms="49" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Account not created expected [Your Account Has Been Created!] but found [Register Account]]]>
+              <![CDATA[Login Failed expected [My Account1] but found [My Account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Account not created expected [Your Account Has Been Created!] but found [Register Account]
+              <![CDATA[java.lang.AssertionError: Login Failed expected [My Account1] but found [My Account]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at naveenAutomation.Tests.AccountCreatedTest.verifyUserAbleToRegister(AccountCreatedTest.java:34)
+at naveenAutomation.Tests.MyAccountTest.verifyLogin(MyAccountTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,28 +175,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleToRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:29 PST" name="tearDown" finished-at="2023-01-12T02:22:45 PST" duration-ms="16222" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:56:02 PST" name="teardown" finished-at="2023-01-27T12:56:02 PST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:45 PST" name="setUp" finished-at="2023-01-12T02:22:53 PST" duration-ms="7706" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:56:02 PST" name="setUp" finished-at="2023-01-27T12:56:06 PST" duration-ms="4555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserAbleToRegister()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:53 PST" name="verifyUserAbleToRegister" finished-at="2023-01-12T02:22:55 PST" duration-ms="2647" status="FAIL">
+        <test-method signature="verifyLogin()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:56:06 PST" name="verifyLogin" finished-at="2023-01-27T12:56:06 PST" duration-ms="48" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Account not created expected [Your Account Has Been Created!] but found [Register Account]]]>
+              <![CDATA[Login Failed expected [My Account1] but found [My Account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Account not created expected [Your Account Has Been Created!] but found [Register Account]
+              <![CDATA[java.lang.AssertionError: Login Failed expected [My Account1] but found [My Account]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at naveenAutomation.Tests.AccountCreatedTest.verifyUserAbleToRegister(AccountCreatedTest.java:34)
+at naveenAutomation.Tests.MyAccountTest.verifyLogin(MyAccountTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -167,270 +230,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleToRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountCreatedTest@7eecb5b8]" started-at="2023-01-12T02:22:56 PST" name="tearDown" finished-at="2023-01-12T02:22:56 PST" duration-ms="92" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:naveenAutomation.Tests.MyAccountTest@606e4010]" started-at="2023-01-27T12:56:07 PST" name="teardown" finished-at="2023-01-27T12:56:07 PST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- naveenAutomation.Tests.AccountCreatedTest -->
-      <class name="naveenAutomation.Tests.AccountLogInTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:35 PST" name="setUp" finished-at="2023-01-12T02:20:40 PST" duration-ms="4394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountInfoOfUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:40 PST" name="verifyAccountInfoOfUsers" data-provider="AccountInfoDataProvider" finished-at="2023-01-12T02:20:42 PST" duration-ms="2109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iron.man@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Tony]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Stark]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[iron.man@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[1123456780]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInfoOfUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:42 PST" name="tearDown" finished-at="2023-01-12T02:20:42 PST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:42 PST" name="setUp" finished-at="2023-01-12T02:20:45 PST" duration-ms="3642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountInfoOfUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:45 PST" name="verifyAccountInfoOfUsers" data-provider="AccountInfoDataProvider" finished-at="2023-01-12T02:20:48 PST" duration-ms="2610" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[harinder21@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Harinder]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kaur]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Harinder21@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[780298456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInfoOfUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:20:48 PST" name="tearDown" finished-at="2023-01-12T02:21:04 PST" duration-ms="16314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:04 PST" name="setUp" finished-at="2023-01-12T02:21:08 PST" duration-ms="4158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountInfoOfUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:08 PST" name="verifyAccountInfoOfUsers" data-provider="AccountInfoDataProvider" finished-at="2023-01-12T02:21:12 PST" duration-ms="3284" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[navjot.rehal12@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Navjot13]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Navjot]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Singh]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Navjot.rehal12@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[4372174449]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInfoOfUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:12 PST" name="tearDown" finished-at="2023-01-12T02:21:12 PST" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:12 PST" name="setUp" finished-at="2023-01-12T02:21:16 PST" duration-ms="3769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountInfoOfUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:16 PST" name="verifyAccountInfoOfUsers" data-provider="AccountInfoDataProvider" finished-at="2023-01-12T02:21:18 PST" duration-ms="2482" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sg1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Sahib]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[New]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sg1@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[5146217769]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInfoOfUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:18 PST" name="tearDown" finished-at="2023-01-12T02:21:18 PST" duration-ms="77" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:18 PST" name="setUp" finished-at="2023-01-12T02:21:22 PST" duration-ms="3962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountInfoOfUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:22 PST" name="verifyAccountInfoOfUsers" data-provider="AccountInfoDataProvider" finished-at="2023-01-12T02:21:25 PST" duration-ms="2527" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[neethu123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@01]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Neethu]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Manu]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[neethu123@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[9876543210]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccountInfoOfUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:25 PST" name="tearDown" finished-at="2023-01-12T02:21:25 PST" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:25 PST" name="setUp" finished-at="2023-01-12T02:21:29 PST" duration-ms="3926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyClickOnAllLaptopsAndNotebook()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:29 PST" name="verifyClickOnAllLaptopsAndNotebook" finished-at="2023-01-12T02:21:31 PST" duration-ms="2514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyClickOnAllLaptopsAndNotebook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:31 PST" name="tearDown" finished-at="2023-01-12T02:21:31 PST" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:31 PST" name="setUp" finished-at="2023-01-12T02:21:35 PST" duration-ms="3678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserAbleToChangePhnNumber()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:35 PST" name="verifyUserAbleToChangePhnNumber" finished-at="2023-01-12T02:21:38 PST" duration-ms="3287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAbleToChangePhnNumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:38 PST" name="tearDown" finished-at="2023-01-12T02:21:55 PST" duration-ms="16245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:55 PST" name="setUp" finished-at="2023-01-12T02:21:59 PST" duration-ms="3880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserAbleToSubscribe()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:21:59 PST" name="verifyUserAbleToSubscribe" finished-at="2023-01-12T02:22:01 PST" duration-ms="2655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserAbleToSubscribe -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:naveenAutomation.Tests.AccountLogInTest@1500b2f3]" started-at="2023-01-12T02:22:01 PST" name="tearDown" finished-at="2023-01-12T02:22:01 PST" duration-ms="69" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- naveenAutomation.Tests.AccountLogInTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- naveenAutomation.Tests.MyAccountTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

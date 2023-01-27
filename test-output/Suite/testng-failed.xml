@@ -8,13 +8,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="naveenAutomation.Tests.AccountCreatedTest">
+      <class name="naveenAutomation.Tests.AccountLoginTest">
         <methods>
+          <include name="teardown"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyUserAbleToRegister"/>
+          <include name="verifyAlertBannerForInvalidLoginCredentials"/>
         </methods>
-      </class> <!-- naveenAutomation.Tests.AccountCreatedTest -->
+      </class> <!-- naveenAutomation.Tests.AccountLoginTest -->
+      <class name="naveenAutomation.Tests.MyAccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- naveenAutomation.Tests.MyAccountTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

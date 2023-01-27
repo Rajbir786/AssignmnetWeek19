@@ -3797,3 +3797,669 @@
 2023-01-12 02:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (7ab79d8067bfdb9d35d3bea571db7440)] -> css selector: #content h1]
 2023-01-12 02:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (7ab79d8067bfdb9d35d3bea571db7440)] -> css selector: #content h1]
 2023-01-12 02:22:55 ERROR CustomListener:28 - Test execution failed and taking screen shot: verifyUserAbleToRegister
+2023-01-12 14:44:10 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:15 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:15 INFO  CustomListener:17 - Test execution has started for : verifyAccountInfoOfUsers
+2023-01-12 14:44:15 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:15 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:15 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:15 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:15 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:16 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:44:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:44:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:17 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:17 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (38cd6cea1829e4dbd1a74f8c8a5f0a0f)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 14:44:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 14:44:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 14:44:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 14:44:18 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 14:44:18 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 14:44:18 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:44:18 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:44:18 INFO  CustomListener:22 - Test execution has passed for : verifyAccountInfoOfUsers
+2023-01-12 14:44:19 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:21 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:21 INFO  CustomListener:17 - Test execution has started for : verifyAccountInfoOfUsers
+2023-01-12 14:44:21 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:21 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:21 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:21 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:21 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:21 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:21 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:23 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:23 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:24 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:25 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:25 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:25 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:44:25 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:44:26 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:26 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:26 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:28 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c3ba67e2bd3f4b9fec27e19bb3570cc6)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:28 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 14:44:28 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 14:44:28 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 14:44:28 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 14:44:28 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 14:44:28 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 14:44:28 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:44:28 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:44:28 INFO  CustomListener:22 - Test execution has passed for : verifyAccountInfoOfUsers
+2023-01-12 14:44:31 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:34 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:44:34 INFO  CustomListener:17 - Test execution has started for : verifyAccountInfoOfUsers
+2023-01-12 14:44:34 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:34 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:44:34 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:34 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:44:34 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:34 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:44:34 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:35 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:44:35 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:35 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:44:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:44:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:44:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:44:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:44:37 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:38 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (570687499cf49ebc8d5bd86cda6e001e)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:44:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 14:44:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 14:44:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 14:44:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 14:44:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 14:44:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 14:44:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:44:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:44:38 INFO  CustomListener:22 - Test execution has passed for : verifyAccountInfoOfUsers
+2023-01-12 14:44:56 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:00 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:00 INFO  CustomListener:17 - Test execution has started for : verifyAccountInfoOfUsers
+2023-01-12 14:45:00 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:00 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:00 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:00 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:00 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:00 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:00 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:01 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:01 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:01 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:01 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:01 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:01 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:01 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:02 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:02 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:02 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:03 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (b96cbc0b95e2f9e43a9ee339e0184a3e)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:03 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 14:45:03 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 14:45:03 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 14:45:03 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 14:45:03 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 14:45:03 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 14:45:03 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:45:03 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:45:03 INFO  CustomListener:22 - Test execution has passed for : verifyAccountInfoOfUsers
+2023-01-12 14:45:04 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:08 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:08 INFO  CustomListener:17 - Test execution has started for : verifyAccountInfoOfUsers
+2023-01-12 14:45:08 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:08 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:08 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:08 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:08 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:08 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:08 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:08 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:08 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:08 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:08 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:08 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:08 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:08 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:09 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:09 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:09 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:10 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e0b766e0c193576dd485a5c4af61cabc)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:10 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 14:45:10 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 14:45:10 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 14:45:10 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 14:45:10 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 14:45:10 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 14:45:10 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:45:10 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:45:10 INFO  CustomListener:22 - Test execution has passed for : verifyAccountInfoOfUsers
+2023-01-12 14:45:12 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:15 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:15 INFO  CustomListener:17 - Test execution has started for : verifyClickOnAllLaptopsAndNotebook
+2023-01-12 14:45:15 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:15 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:15 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:15 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:15 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:15 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle
+2023-01-12 14:45:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle
+2023-01-12 14:45:16 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle]
+2023-01-12 14:45:16 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle]
+2023-01-12 14:45:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: li.dropdown.open div.dropdown-menu a.see-all
+2023-01-12 14:45:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: li.dropdown.open div.dropdown-menu a.see-all
+2023-01-12 14:45:16 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: li.dropdown.open div.dropdown-menu a.see-all]
+2023-01-12 14:45:17 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3174c61d45d376b43cc97ba93800e592)] -> css selector: li.dropdown.open div.dropdown-menu a.see-all]
+2023-01-12 14:45:17 INFO  CustomListener:22 - Test execution has passed for : verifyClickOnAllLaptopsAndNotebook
+2023-01-12 14:45:18 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:21 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:21 INFO  CustomListener:17 - Test execution has started for : verifyUserAbleToChangePhnNumber
+2023-01-12 14:45:21 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:21 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:21 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:21 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:21 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:21 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:21 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:22 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:22 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:22 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:22 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:22 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:22 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:22 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:22 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:23 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 14:45:23 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:23 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 14:45:23 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:45:23 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:45:23 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 14:45:23 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 14:45:24 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:24 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:24 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 14:45:24 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: div.alert-success
+2023-01-12 14:45:24 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: div.alert-success]
+2023-01-12 14:45:24 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (aadb30aa15f5d3dcbe047990219f6e79)] -> css selector: div.alert-success]
+2023-01-12 14:45:24 INFO  CustomListener:22 - Test execution has passed for : verifyUserAbleToChangePhnNumber
+2023-01-12 14:45:26 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:28 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:28 INFO  CustomListener:17 - Test execution has started for : verifyUserAbleToSubscribe
+2023-01-12 14:45:28 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:28 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:28 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:28 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:28 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:28 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 14:45:28 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:29 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 14:45:29 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:29 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 14:45:29 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:29 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 14:45:29 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:29 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:30 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a
+2023-01-12 14:45:30 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a
+2023-01-12 14:45:30 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a]
+2023-01-12 14:45:30 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a]
+2023-01-12 14:45:30 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[value='0']
+2023-01-12 14:45:30 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[value='0']
+2023-01-12 14:45:30 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 14:45:30 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 14:45:30 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: input[type='submit']]
+2023-01-12 14:45:31 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: input[type='submit']]
+2023-01-12 14:45:31 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: div.alert.alert-success.alert-dismissible
+2023-01-12 14:45:31 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: div.alert.alert-success.alert-dismissible
+2023-01-12 14:45:31 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: div.alert.alert-success.alert-dismissible]
+2023-01-12 14:45:31 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (417f6e7a660958f1d3afddc244f63392)] -> css selector: div.alert.alert-success.alert-dismissible]
+2023-01-12 14:45:31 INFO  CustomListener:22 - Test execution has passed for : verifyUserAbleToSubscribe
+2023-01-12 14:45:32 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:36 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:36 INFO  CustomListener:17 - Test execution has started for : verifyUserAbleToRegister
+2023-01-12 14:45:36 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:36 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:36 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:36 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:37 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:37 INFO  WebdriverEvents:89 - Finding elementBy.id: input-firstname
+2023-01-12 14:45:37 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-firstname
+2023-01-12 14:45:37 INFO  WebdriverEvents:89 - Finding elementBy.id: input-lastname
+2023-01-12 14:45:37 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-lastname
+2023-01-12 14:45:37 INFO  WebdriverEvents:89 - Finding elementBy.id: input-email
+2023-01-12 14:45:37 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-email
+2023-01-12 14:45:37 INFO  WebdriverEvents:89 - Finding elementBy.id: input-telephone
+2023-01-12 14:45:37 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-telephone
+2023-01-12 14:45:37 INFO  WebdriverEvents:89 - Finding elementBy.id: input-password
+2023-01-12 14:45:38 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-password
+2023-01-12 14:45:38 INFO  WebdriverEvents:89 - Finding elementBy.id: input-confirm
+2023-01-12 14:45:38 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-confirm
+2023-01-12 14:45:38 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:38 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:38 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:38 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:38 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 14:45:38 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='submit']
+2023-01-12 14:45:38 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:38 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content h1
+2023-01-12 14:45:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content h1
+2023-01-12 14:45:38 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> css selector: #content h1]
+2023-01-12 14:45:38 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (96510da995bd2d92741f31ba38395959)] -> css selector: #content h1]
+2023-01-12 14:45:38 INFO  RetryFailedTests:22 - Running a failed test 1 times
+2023-01-12 14:45:38 INFO  CustomListener:34 - Test execution has skipped for : verifyUserAbleToRegister
+2023-01-12 14:45:40 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:42 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:42 INFO  CustomListener:17 - Test execution has started for : verifyUserAbleToRegister
+2023-01-12 14:45:42 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:42 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:42 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:43 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:43 INFO  WebdriverEvents:89 - Finding elementBy.id: input-firstname
+2023-01-12 14:45:43 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-firstname
+2023-01-12 14:45:43 INFO  WebdriverEvents:89 - Finding elementBy.id: input-lastname
+2023-01-12 14:45:43 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-lastname
+2023-01-12 14:45:43 INFO  WebdriverEvents:89 - Finding elementBy.id: input-email
+2023-01-12 14:45:43 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-email
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.id: input-telephone
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-telephone
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.id: input-password
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-password
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.id: input-confirm
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-confirm
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:44 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='submit']
+2023-01-12 14:45:44 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content h1
+2023-01-12 14:45:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content h1
+2023-01-12 14:45:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> css selector: #content h1]
+2023-01-12 14:45:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (fa19deefd490aa46b06b0a830ff3527f)] -> css selector: #content h1]
+2023-01-12 14:45:44 INFO  RetryFailedTests:22 - Running a failed test 2 times
+2023-01-12 14:45:44 INFO  CustomListener:34 - Test execution has skipped for : verifyUserAbleToRegister
+2023-01-12 14:45:46 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:48 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 14:45:48 INFO  CustomListener:17 - Test execution has started for : verifyUserAbleToRegister
+2023-01-12 14:45:48 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:48 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 14:45:48 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:49 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 14:45:49 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:49 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a
+2023-01-12 14:45:49 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:49 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:first-of-type a]
+2023-01-12 14:45:49 INFO  WebdriverEvents:89 - Finding elementBy.id: input-firstname
+2023-01-12 14:45:49 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-firstname
+2023-01-12 14:45:49 INFO  WebdriverEvents:89 - Finding elementBy.id: input-lastname
+2023-01-12 14:45:49 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-lastname
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.id: input-email
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-email
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.id: input-telephone
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-telephone
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.id: input-password
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-password
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.id: input-confirm
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.id: input-confirm
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 14:45:50 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:50 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //input[@type='checkbox']]
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //input[@type='submit']
+2023-01-12 14:45:50 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:50 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> xpath: //input[@type='submit']]
+2023-01-12 14:45:50 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content h1
+2023-01-12 14:45:50 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content h1
+2023-01-12 14:45:50 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> css selector: #content h1]
+2023-01-12 14:45:51 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (a3b045bbd28241e14050191bb49e30f7)] -> css selector: #content h1]
+2023-01-12 14:45:51 ERROR CustomListener:28 - Test execution failed and taking screen shot: verifyUserAbleToRegister
+2023-01-12 15:34:27 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:30 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:30 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:30 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:30 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:30 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:30 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:30 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:30 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:30 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:30 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:30 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:31 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:31 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:31 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:34:31 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:34:31 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:31 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:31 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:32 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:32 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:34:32 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:34:32 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: [name='firstname']]
+2023-01-12 15:34:32 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (e997e4b1066a21b236f47b9ba8a1eee5)] -> css selector: [name='firstname']]
+2023-01-12 15:34:34 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:36 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:36 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:36 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:36 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:37 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:37 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:37 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:34:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:34:38 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:38 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:38 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:39 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:39 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:34:39 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:34:39 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: [name='firstname']]
+2023-01-12 15:34:39 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4a5b5f07f9e2ff68017f34e4ee029f6d)] -> css selector: [name='firstname']]
+2023-01-12 15:34:41 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:43 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:43 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:43 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:43 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:43 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:43 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:43 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:43 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:34:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:34:47 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:47 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:47 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:48 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:48 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:34:48 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:34:48 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: [name='firstname']]
+2023-01-12 15:34:48 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (e1760cfffd46fd49edd383d3cfc672d8)] -> css selector: [name='firstname']]
+2023-01-12 15:34:50 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:54 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:34:54 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:54 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:34:54 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:54 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:34:54 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:54 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:34:54 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:54 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:34:54 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:54 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:34:54 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:54 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:34:54 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:34:54 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:34:55 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:55 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:34:55 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:56 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:34:56 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:34:56 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:34:56 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: [name='firstname']]
+2023-01-12 15:34:56 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (c395beb3adbede17107589b0566f1f46)] -> css selector: [name='firstname']]
+2023-01-12 15:35:14 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:16 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:16 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:16 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:16 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:16 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:16 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:17 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:18 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:35:18 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:35:18 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:35:19 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:35:19 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:35:19 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:35:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: [name='firstname']]
+2023-01-12 15:35:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (d5b91b450c0335d074558dffd9f83dcc)] -> css selector: [name='firstname']]
+2023-01-12 15:35:21 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:24 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:24 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:24 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:24 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:24 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:24 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:24 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:24 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:25 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:25 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:25 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:25 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:25 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:25 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:25 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:26 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle
+2023-01-12 15:35:26 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle
+2023-01-12 15:35:26 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle]
+2023-01-12 15:35:26 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: ul.nav.navbar-nav li.dropdown:nth-of-type(2) a.dropdown-toggle]
+2023-01-12 15:35:26 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: li.dropdown.open div.dropdown-menu a.see-all
+2023-01-12 15:35:26 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: li.dropdown.open div.dropdown-menu a.see-all
+2023-01-12 15:35:26 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: li.dropdown.open div.dropdown-menu a.see-all]
+2023-01-12 15:35:27 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7678d8e3eda1a5d844ea06997d8894a0)] -> css selector: li.dropdown.open div.dropdown-menu a.see-all]
+2023-01-12 15:35:28 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:33 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:33 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:33 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:33 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:33 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:33 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:33 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:33 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:34 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:34 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:34 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:34 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:34 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:34 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:34 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:35 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:35:35 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:35:35 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:35:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:35:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 15:35:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 15:35:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 15:35:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 15:35:36 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:36 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:37 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 15:35:37 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: div.alert-success
+2023-01-12 15:35:37 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: div.alert-success]
+2023-01-12 15:35:37 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (7d9b7833c7947cd30f06af1307f2dfed)] -> css selector: div.alert-success]
+2023-01-12 15:35:38 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:42 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:35:42 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:42 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:35:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:35:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:42 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:35:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:35:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:42 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:35:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:42 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:35:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:43 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:43 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a
+2023-01-12 15:35:43 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a
+2023-01-12 15:35:43 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a]
+2023-01-12 15:35:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: #content.col-sm-9 ul.list-unstyled:nth-of-type(4) a]
+2023-01-12 15:35:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[value='0']
+2023-01-12 15:35:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[value='0']
+2023-01-12 15:35:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:35:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:35:44 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: input[type='submit']]
+2023-01-12 15:35:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: input[type='submit']]
+2023-01-12 15:35:44 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: div.alert.alert-success.alert-dismissible
+2023-01-12 15:35:44 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: div.alert.alert-success.alert-dismissible
+2023-01-12 15:35:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: div.alert.alert-success.alert-dismissible]
+2023-01-12 15:35:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (fe8376cd70e4329121ae2c96eb817a29)] -> css selector: div.alert.alert-success.alert-dismissible]
+2023-01-12 15:39:00 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:39:03 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:39:03 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:39:03 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 15:39:03 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:39:03 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 15:39:03 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:39:03 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 15:39:03 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:39:04 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 15:39:04 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:39:04 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 15:39:04 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:39:04 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 15:39:04 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 15:39:04 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 15:39:05 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:39:05 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 15:39:05 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:39:06 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (5216c1d3e22baaa037520a02841d15ff)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 15:39:06 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 15:39:06 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 15:39:06 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 15:39:06 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 15:39:06 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 15:39:06 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 15:39:06 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 15:39:06 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 15:39:07 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:39:09 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 15:39:09 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:18:56 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:19:01 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:20:42 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:20:42 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:20:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:20:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:20:42 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:20:42 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:20:42 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 16:20:43 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 16:20:55 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 16:20:55 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 16:20:55 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 16:20:55 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 16:20:55 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 16:20:55 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 16:21:04 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 16:21:04 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 16:21:04 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 16:21:05 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (87e5831fc0cd53fac697071640dab251)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 16:21:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 16:21:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 16:22:07 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 16:22:07 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 16:22:15 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 16:22:15 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 16:23:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 16:23:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 16:23:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 16:23:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 16:24:06 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:24:10 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:26:13 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:26:14 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:26:14 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:26:14 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:26:14 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:26:14 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:26:14 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 16:26:14 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 16:26:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 16:26:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 16:26:16 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 16:26:16 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 16:26:17 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 16:26:17 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='submit']
+2023-01-12 16:26:19 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 16:26:19 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a
+2023-01-12 16:26:19 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 16:26:20 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (de20deb496101a0f76093ca11edf2ba3)] -> css selector: #content.col-sm-9 ul.list-unstyled:first-of-type li:first-of-type a]
+2023-01-12 16:26:20 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='firstname']
+2023-01-12 16:26:20 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='firstname']
+2023-01-12 16:26:21 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='lastname']
+2023-01-12 16:26:21 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='lastname']
+2023-01-12 16:26:22 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: [name='email']
+2023-01-12 16:26:22 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: [name='email']
+2023-01-12 16:26:23 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: input[type='tel']
+2023-01-12 16:26:23 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: input[type='tel']
+2023-01-12 16:26:45 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:26:48 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:32:16 INFO  WebdriverEvents:42 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:32:20 INFO  WebdriverEvents:48 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 16:34:08 INFO  WebdriverEvents:89 - Finding elementBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:34:08 INFO  WebdriverEvents:95 - Elelement FoundBy.xpath: //span[contains(text(),'My Account')]
+2023-01-12 16:34:09 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3d04c732306a4411170a0ce1698d5d13)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:34:09 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3d04c732306a4411170a0ce1698d5d13)] -> xpath: //span[contains(text(),'My Account')]]
+2023-01-12 16:34:09 INFO  WebdriverEvents:89 - Finding elementBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:34:09 INFO  WebdriverEvents:95 - Elelement FoundBy.cssSelector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a
+2023-01-12 16:34:09 INFO  WebdriverEvents:101 - clicking on[[ChromeDriver: chrome on WINDOWS (3d04c732306a4411170a0ce1698d5d13)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-12 16:34:09 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (3d04c732306a4411170a0ce1698d5d13)] -> css selector: ul.dropdown-menu.dropdown-menu-right li:nth-of-type(2) a]
+2023-01-27 12:55:51 INFO  CustomListener:18 - Test execution has started for : verifyAlertBannerForInvalidLoginCredentials
+2023-01-27 12:55:52 INFO  CustomListener:23 - Test execution has passed for : verifyAlertBannerForInvalidLoginCredentials
+2023-01-27 12:55:57 INFO  CustomListener:18 - Test execution has started for : verifyLogin
+2023-01-27 12:55:57 INFO  RetryFailedTests:22 - Running a failed test 1 times
+2023-01-27 12:55:57 INFO  CustomListener:35 - Test execution has skipped for : verifyLogin
+2023-01-27 12:56:02 INFO  CustomListener:18 - Test execution has started for : verifyLogin
+2023-01-27 12:56:02 INFO  RetryFailedTests:22 - Running a failed test 2 times
+2023-01-27 12:56:02 INFO  CustomListener:35 - Test execution has skipped for : verifyLogin
+2023-01-27 12:56:06 INFO  CustomListener:18 - Test execution has started for : verifyLogin
+2023-01-27 12:56:06 ERROR CustomListener:29 - Test execution failed and taking screen shot: verifyLogin
+2023-01-27 12:56:07 INFO  CustomListener:35 - Test execution has skipped for : verifyAlertBannerForInvalidLoginCredentials
