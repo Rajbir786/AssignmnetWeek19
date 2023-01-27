@@ -1,21 +1,22 @@
 package naveenAutomation.Reports;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportListener extends TestListenerAdapter {
 
-	public ExtentSparkReporter htmlSparkReporter;
+	public ExtentHtmlReporter htmlReporter;
 	public ExtentTest test;
 	public ExtentReports extent;
 
@@ -27,26 +28,20 @@ public class ExtentReportListener extends TestListenerAdapter {
 		String repName = "Extent_Report_" + timeStamp + ".html";
 
 		// Defines the location of extent report
-		System.out.println("hello");
-		htmlSparkReporter = new ExtentSparkReporter("./Extent Report/" + repName+"sss");	
-		
-		// Loading the config XML
-		try {
-			htmlSparkReporter.loadXMLConfig("./extent-config.xml");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		htmlReporter = new ExtentHtmlReporter("./Extent Report/" + repName);
 
-		htmlSparkReporter .config().setReportName("Regression Suite");
-		htmlSparkReporter .config().setTheme(Theme.STANDARD);
+		// Loading the config XML
+		htmlReporter.loadXMLConfig("./extent-config.xml");
+
+		htmlReporter.config().setReportName("Regression Suite");
+		htmlReporter.config().setTheme(Theme.STANDARD);
 
 		extent = new ExtentReports();
 
-		extent.attachReporter(htmlSparkReporter);
+		extent.attachReporter(htmlReporter);
 
 		extent.setSystemInfo("Name of the host", "Localhost");
-		extent.setSystemInfo("Tester Name", "Rajbir Kaur");
+		extent.setSystemInfo("Tester Name", "Manvir");
 		extent.setSystemInfo("Env", "Prod");
 		
 	}
@@ -75,4 +70,3 @@ public class ExtentReportListener extends TestListenerAdapter {
 	}
 
 }
-

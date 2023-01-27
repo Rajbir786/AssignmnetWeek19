@@ -1,11 +1,12 @@
 package naveenAutomation.Listeners;
+import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+
 import naveenAutomation.Base.TestBase;
 import naveenAutomation.Utils.Log;
 import naveenAutomation.Utils.Utils;
-import org.apache.log4j.Logger;
 
 	public class CustomListener extends TestBase implements ITestListener {
 

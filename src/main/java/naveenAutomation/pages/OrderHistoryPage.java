@@ -1,28 +1,31 @@
 package naveenAutomation.pages;
-
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import naveenAutomation.Base.TestBase;
+public class OrderHistoryPage extends Page {
 
-public class OrderHistoryPage extends TestBase {
+	private static final String PAGE_URL="/order";
+	
+	public OrderHistoryPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
+		// TODO Auto-generated constructor stub
+	}
+
 	public WebElement getElementFromTheTable(String orderID, OrderHistory column) {
 
-		int columnIndex = getIndexForColumn(column);// find index of column by this method and store into columnindex
-													// varibale
+		int columnIndex = getIndexForColumn(column);
 
-		List<WebElement> rowsInTable = driver// findrows of table
+		List<WebElement> rowsInTable = wd
 				.findElements(By.cssSelector("table[class='table table-bordered table-hover'] tbody tr"));
-//find list of rows in table
-		for (int i = 0; i < rowsInTable.size(); i++) // go over each row of table
-		{
-			List<WebElement> cells = rowsInTable.get(i).findElements(By.cssSelector("td"));// find cells of each row
-			String orderIdText = cells.get(0).getText();// find text of first cell of row that is unique id
-			if (orderIdText.equals(orderID))// if order id given is same as unique id given
-			{
-				return cells.get(columnIndex);// then return that particular cell whose index is same as given index
+
+		for (int i = 0; i < rowsInTable.size(); i++) {
+			List<WebElement> cells = rowsInTable.get(i).findElements(By.cssSelector("td"));
+			String orderIdText = cells.get(0).getText();
+			if (orderIdText.equals(orderID)) {
+				return cells.get(columnIndex);
 			}
 
 		}
@@ -31,21 +34,13 @@ public class OrderHistoryPage extends TestBase {
 		return null;
 	}
 
-//this method will find index of coulmn and we will pass coulmn where we want to find element
 	public int getIndexForColumn(OrderHistory column) {
-		List<WebElement> headers = driver
-				.findElements(By.cssSelector("table[class='table table-bordered table-hover'] thead tr td"));// find all
-																												// headers
-																												// in
-																												// table
+		List<WebElement> headers = wd
+				.findElements(By.cssSelector("table[class='table table-bordered table-hover'] thead tr td"));
 
-		for (WebElement webElement : headers)// iterate over headers
-		{
-			String headerText = webElement.getText();// find text of each heading
-			if (headerText.equals(column.getName()))
-			// if text of heading matches with column name we pss then find index of that
-			// header
-			{
+		for (WebElement webElement : headers) {
+			String headerText = webElement.getText();
+			if (headerText.equals(column.getName())) {
 				return headers.indexOf(webElement);
 			}
 
@@ -56,7 +51,11 @@ public class OrderHistoryPage extends TestBase {
 
 	public enum OrderHistory {
 
-		ORDERID("Order ID"), CUSTOMER("Customer"), NOOFPRODUCTS("No. of Products"), STATUS("Status"), TOTAL("Total"),
+		ORDERID("Order ID"), 
+		CUSTOMER("Customer"), 
+		NOOFPRODUCTS("No. of Products"), 
+		STATUS("Status"), 
+		TOTAL("Total"),
 		DATAADDED("Date Added");
 
 		String name;
@@ -70,4 +69,18 @@ public class OrderHistoryPage extends TestBase {
 		}
 	}
 
+	@Override
+	protected void isLoaded() {
+
+		if(!urlContains(wd.getCurrentUrl())) {
+			throw new Error();
+		}
+	}
+	
+	@Override
+	protected String getPageUrl() {
+		return getDomain() + PAGE_URL;
+	}
+
 }
+

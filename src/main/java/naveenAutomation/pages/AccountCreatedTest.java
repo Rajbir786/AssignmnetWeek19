@@ -1,13 +1,10 @@
-package naveenAutomation.Tests;
+package naveenAutomation.pages;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import naveenAutomation.Base.TestBase;
-import naveenAutomation.pages.AccountCreatedPage;
-import naveenAutomation.pages.AccountLoginPage;
-import naveenAutomation.pages.RegisterAccountPage;
 
 public class AccountCreatedTest extends TestBase {
 	//this is account class
@@ -24,8 +21,8 @@ public class AccountCreatedTest extends TestBase {
 
 		RegisterAccountPage registerAccountPage = accountLoginPage.clickContinueButton();
 
-		AccountCreatedPage accountCreated = registerAccountPage.signUp("Jasmeet", "Kaur", "Jassi1234@gmail.com",
-				"6472152994", "Password1", "Password1");
+		AccountCreatedPage accountCreated = registerAccountPage.signUp("raj", "Kaur", "raji1234@gmail.com",
+				"6472152884", "Password7", "Password7");
 
 		Assert.assertEquals(accountCreated.getSuccessAccountCreatedTxt(), AccountCreatedPage.RegisterAccountText.ACCOUNT_CREATED_TXT,
 				"Account not created");
@@ -36,5 +33,6 @@ public class AccountCreatedTest extends TestBase {
 	public void teardown() {
 		quitBrowser();
 	}
+
 
 }
