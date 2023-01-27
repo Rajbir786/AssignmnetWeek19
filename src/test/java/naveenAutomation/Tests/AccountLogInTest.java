@@ -20,18 +20,19 @@ public class AccountLoginTest extends TestBase {
 	}
 
 	@Test(dataProvider = "LoginDataProvider")
-	public void verifyAlertBannerForInvalidLoginCredentials(String userName, String password) {
+	public void verifyAlertBannerForInvalidLoginCredentials(String username, String password) {
 		AccountLoginPage accountLoginPage = new AccountLoginPage(driver,true).get();
-		accountLoginPage.login(userName, password);
+		accountLoginPage.login(username, password);
 		Assert.assertEquals(accountLoginPage.getTextFromAlertBanner(),
 				"Warning: No match for E-Mail Address and/or Password.", "Alert text doesn't match");
 	}
 
 	@DataProvider(name = "LoginDataProvider")
 	public String[][] provideLoginData() throws IOException {
-		String filePath = "./Test Data\\LoginDetails.xlsx";
-		int rowCount = ExcelUtils.getRowCount(filePath, "Sheet3");
-		int colCount = ExcelUtils.getColumnCount(filePath, "Sheet3", rowCount);
+		String filePath = "C:\\Users\\Rajbir\\eclipse-workspace\\naveenAutomation\\Test Data\\LoginDetails.xlsx";
+		int rowCount = ExcelUtils.getRowCount(filePath,"Sheet3");
+		System.out.println(rowCount);
+		int colCount = ExcelUtils.getColumnCount(filePath,"Sheet3",rowCount);
 		String[][] loginData = new String[rowCount][colCount];
 		for (int i = 1; i <= rowCount; i++) {
 			for (int j = 0; j < colCount; j++) {
